@@ -81,8 +81,6 @@ function onOffMusic(){
         callIndex.currentTime = 0;
     }
 }
-//Breh
-callIndex.play();
 
 callIndex.volume = 0.5;
 
