@@ -82,6 +82,7 @@ function onOffMusic(){
     }
 }
 
+callIndex.play();
 
 callIndex.volume = 0.5;
 
