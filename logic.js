@@ -71,14 +71,14 @@ async function text_scrambly(){
     
 }
 function onOffMusic(){
-    if(musicStatus.textContent == "Music: On"){
-        musicStatus.textContent = "Music: Off";
-        callIndex.volume = 0;
-    }
-    else{
+    if(musicStatus.textContent == "Music: Off"){
         musicStatus.textContent = "Music: On";
         callIndex.volume = 0.5;
         callIndex.currentTime = 0;
+    }
+    else{
+        musicStatus.textContent = "Music: Off";
+        callIndex.volume = 0;
     }
 }
 
